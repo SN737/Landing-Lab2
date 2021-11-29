@@ -13,7 +13,6 @@ body {
     background: #131313;
     padding: 0 calc(50% - 690px);
     
-   
 }
 
 header {
@@ -22,9 +21,8 @@ header {
     height: 83px;
     1padding: 0 calc(50% - 690px);
     align-items: center;
-   
-   
 }
+
 .logo{
     font-family: NunitoSans;
     font-style: normal;
@@ -35,33 +33,66 @@ header {
     color: #E3B873;
 }
 
+.button {
+    background: #E3B873;
+    border-radius: 2px;
+    border: 0;
+    color: white;
+    font-family: NunitoSans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.tel{
+    color: #E3B873; 
+    font-family: NunitoSans;
+    text-decoration-line: underline;   
+}
 .button1 {
     width: 161px;
     height: 37px;
-    background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-    border-radius: 2px;
-    border: 0;
+    
+    
 }
 
-.headnav1{
+.button2:hover {
+    background-color:transparent;
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.headnav1 {
     font-family: NunitoSans;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 15px;
     color: #FFFFFF;  
-    display: inline;
+    1display: inline;
+    
 
 }
 .headnav1 li {
-    padding: 37px;
+    padding: 35px;
     display: inline;
     text-transform: uppercase;
+    color: #FFFFFF; 
     
 }
 
-.section1,h1,p {
+.section1,h1,p,a {
     color: #FFFFFF;
 
 }
@@ -76,6 +107,8 @@ header {
     background-color:rgba(0,0,0,.65);
     display: block;
 }
+
+
 
 .gridwrapper1 {
     width: 27vw;
@@ -94,15 +127,11 @@ header {
 
 .button2-1{
     grid-area: C;
-    background: #E3B873;
-    border: 0;
+   
 }
 .button2-2{
     grid-area: D;
-    background-color:transparent;
-    border: white;
-    border-style: solid;
-    border-width: 1px;
+    
 
     
     
@@ -137,45 +166,52 @@ header {
     width: 207px;
     height: 51px;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
-    border-radius: 2px;
-    color: white;
-    font-family: NunitoSans;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 15px;
-    text-align: center;
-    
-    
+  
 }
 .section2 {
     height: 1074px;
-    background-color: tomato;
+    /*! background-color: tomato;*/
     display: flex;
+   
 
 }
 .wrapper2 {
-    background-color: turquoise;
+    /* ! background-color: turquoise;*/
     width: 27vw;
     padding-top: 7vw;
     padding-left: 5vw;
     display: grid;
 }
 
+.orange-text {
+    color:#E3B873;
+    font-family: YesevaOne;
+}
+.white-nunito{
+    color:#FFFFFF;
+    font-family: NunitoSans;
+}
 
 /*-------------поправить классы!!!!!!!!!!! ------*/
 .item-1 {
-    background-color: rgb(161, 48, 48);
+    /*!background-color: rgb(161, 48, 48);*/
     grid-column: span 2;
+    font-family: YesevaOne;
+    font-size: 27px;
+
 }
 
 .item-2 {
     background-color: rgb(49, 163, 68);
     grid-column: span 2;
+    font-family: NunitoSans;
+    font-size: 14px;
 }
 
 .item-3 {
     background-color: rgb(34, 32, 180);
+    
+
 }
 
 .item-4 {
@@ -191,24 +227,48 @@ header {
 }
 .item-7 {
     background-color: rgb(63, 10, 59);
+    grid-column: span 2;
+
     }
-.item-8 {
-    background-color: rgb(34, 105, 199);
-} 
+
 .item-9 {
     background-color: rgb(207, 219, 29);
 }
 .item-10 {
     background-color: rgb(30, 155, 41);
     grid-column: span 3;
+    max-width: 35vw;
+    padding-top: 2vw;
+}
+
+.item-11{
+    padding-top: 3vw;
 }
 .nav2 {
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    margin-top: 2vw;
+    background-color: blueviolet;
+    
+    
+    
 }
 
 .nav2_item{ 
-    margin-left: 60px;
+    margin-right: 30px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+    /*align-items: center;*/
+}
+.nav2_item:active{
+    color: #E3B873;
+    text-decoration: underline;
 }
 
 .wrapper2 {
@@ -217,10 +277,57 @@ header {
     grid-template-rows: repeat(6, 100px);
 }
 .wrapper2-2 {
-    padding-top: 7vw;
+    
     background-color: yellowgreen;
     width: 35vw;
+    height: 1074px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 100px);
+    
+
 }
+.img2 {
+    width: 35vw;  
+}
+.section3{
+    background-color: coral;
+    height: 1073px;
+    
+    justify-content: center;
+    
+    
+}
+.camera{
+    
+    background-color: cornflowerblue;
+   
+}
+.wrapper3{
+    display: flex;
+    padding-top: 1vw;
+    justify-content: center;
+    align-items: center; 
+    flex-flow: column;
+    background-color: darkgray;
+    
+}
+.play {
+
+}
+
+.camview {
+   
+    
+    background-image: url("../img/camview.png");
+    height: 434px;
+    width: 812px;
+}
+.darklayer2{
+    height: 434px;
+    width: 812px;    
+    background-color:rgba(0,0,0,.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}    
