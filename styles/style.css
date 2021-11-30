@@ -10,7 +10,7 @@
 
 
 body {
-    background: #131313;
+    
     padding: 0 calc(50% - 690px);
     
 }
@@ -21,6 +21,7 @@ header {
     height: 83px;
     1padding: 0 calc(50% - 690px);
     align-items: center;
+    background: black;
 }
 
 .logo{
@@ -67,6 +68,7 @@ header {
 
 .button2:hover {
     background-color:transparent;
+    transition: 0.22s;
     border: white;
     border-style: solid;
     border-width: 1px;
@@ -170,7 +172,7 @@ header {
 }
 .section2 {
     height: 1074px;
-    /*! background-color: tomato;*/
+    background-color: black;
     display: flex;
    
 
@@ -291,11 +293,11 @@ header {
     width: 35vw;  
 }
 .section3{
-    background-color: coral;
+    background-color: rgb(243, 222, 214);
     height: 1073px;
-    
-    justify-content: center;
-    
+    1margin-top: -10vw;
+    1justify-content: center;
+   
     
 }
 .camera{
@@ -310,15 +312,19 @@ header {
     align-items: center; 
     flex-flow: column;
     background-color: darkgray;
+    align-content: center;
+    
     
 }
-.play {
-
+.text-sec3 {
+    width: 680px;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
 }
 
 .camview {
-   
-    
     background-image: url("../img/camview.png");
     height: 434px;
     width: 812px;
@@ -331,3 +337,100 @@ header {
     justify-content: center;
     align-items: center;    
 }    
+.hr-line{
+    margin-top: 2vw;
+    width: 55px;
+    height: 1.54px;
+    background-color: #E3B873;
+    
+}
+.good-chbox{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.good-chbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+.good-chbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+
+  .good-chbox:checked+label::before {
+    border-color: #E3B873;;
+    background-color: #E3B873;;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+
+.good-chbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #f3e3ca;
+  }
+  /* стили для активного состояния чекбокса (при нажатии на него) */
+.good-chbox:not(:disabled):active+label::before {
+    background-color: #f3e3ca;
+  }
+  /* стили для чекбокса, находящегося в фокусе */
+.good-chboxx:focus+label::before {
+    box-shadow: 0 0 0 0.2rem #724702;
+  }
+  /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.good-chbox:focus:not(:checked)+label::before {
+    border-color: #f3e3ca;
+  }
+  /* стили для чекбокса, находящегося в состоянии disabled */
+.good-chbox:disabled+label::before {
+    background-color: #e9ecef;
+  }
+input{
+    opacity: 0;
+    border-bottom: rgb(233, 11, 11);
+
+}
+.section4{
+    background-color: rgb(46, 30, 187);
+    height: 1073px;
+}  
+
+.repair{
+  
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  
+  
+ }
+
+ .repair-img{
+    height: 421px;
+    width: 392px; 
+    padding: 30px;
+
+ }
+
+.wrapper4-1{
+    display: flex;
+    justify-content: center;
+}
+.list-wrap{
+  height: 286px;
+  width: 330px;
+  background-color: white;
+  margin-top: -8vw;
+  
+ 
+}
