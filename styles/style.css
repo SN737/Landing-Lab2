@@ -8,18 +8,15 @@
     font-family:"YesevaOne";
 }
 
-
 body {
-    
+
     padding: 0 calc(50% - 690px);
-    
 }
 
 header {
     display: flex;
     justify-content:space-evenly;
     height: 83px;
-    1padding: 0 calc(50% - 690px);
     align-items: center;
     background: black;
 }
@@ -62,9 +59,7 @@ header {
     width: 161px;
     height: 37px;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-    
-    
-}
+  }
 
 .button2:hover {
     background-color:transparent;
@@ -72,8 +67,7 @@ header {
     border: white;
     border-style: solid;
     border-width: 1px;
-    
-}
+ }
 
 .headnav1 {
     font-family: NunitoSans;
@@ -82,29 +76,24 @@ header {
     font-size: 11px;
     line-height: 15px;
     color: #FFFFFF;  
-    1display: inline;
     
-
 }
 .headnav1 li {
     padding: 35px;
     display: inline;
     text-transform: uppercase;
     color: #FFFFFF; 
-    
 }
 
 .section1,h1,p,a {
     color: #FFFFFF;
-
 }
 .section1 {
     height: 707px;
     background-image: url("../img/img1.jpg");
-    
-}
+ }
 
-.darklayer{
+.darklayer {
     height: 707px;
     background-color:rgba(0,0,0,.65);
     display: block;
@@ -122,22 +111,18 @@ header {
     "B B B B B B"
     "C C C D D D";
     gap: 1px;
-    
-  
-    
+ 
 }
 
 .button2-1{
     grid-area: C;
-   
-}
+  }
+
 .button2-2{
     grid-area: D;
-    
-
-    
-    
+  
 }
+
 .gridwrapper1 h1 {
     grid-area: A;
     font-size: 40px;
@@ -146,23 +131,22 @@ header {
     margin: 0;
     font-family: YesevaOne;
 }
+
 .gridwrapper1 p {
     grid-area: B;
     font-size: 22px;
     line-height: 36px;
     font-family: NunitoSans;
 }
+
 .gridwrapper1 .rnd {
     
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
     color: #E3B873;
+ }   
     
-}   
-    
-
-   
 
 .button2{
     width: 207px;
@@ -170,13 +154,14 @@ header {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
   
 }
+
 .section2 {
     height: 1074px;
     background-color: black;
     display: flex;
-   
-
+ 
 }
+
 .wrapper2 {
     /* ! background-color: turquoise;*/
     width: 27vw;
@@ -251,10 +236,8 @@ header {
     list-style: none;
     justify-content: space-between;
     margin-top: 2vw;
-    background-color: blueviolet;
-    
-    
-    
+   
+ 
 }
 
 .nav2_item{ 
@@ -280,38 +263,34 @@ header {
 }
 .wrapper2-2 {
     
-    background-color: yellowgreen;
+    
     width: 35vw;
     height: 1074px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 100px);
-    
-
+ 
 }
+
 .img2 {
     width: 35vw;  
 }
+
 .section3{
-    background-color: rgb(243, 222, 214);
-    height: 1073px;
-    1margin-top: -10vw;
-    1justify-content: center;
-   
     
+    height: 1000px;
+    margin-top: -18vw;
+    ;
+     
 }
-.camera{
-    
-    background-color: cornflowerblue;
-   
-}
+
 .wrapper3{
     display: flex;
     padding-top: 1vw;
     justify-content: center;
     align-items: center; 
     flex-flow: column;
-    background-color: darkgray;
+   
     align-content: center;
     
     
@@ -345,7 +324,7 @@ header {
     
 }
 .good-chbox{
-    position: absolute;
+    1position: absolute;
     z-index: -1;
     opacity: 0;
 }
@@ -396,14 +375,30 @@ header {
 .good-chbox:disabled+label::before {
     background-color: #e9ecef;
   }
+
+.form-wrapper{
+    padding-top: 2vw;
+    text-align: center;
+    width: 770px;
+}
+
+.form1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1vw;
+
+  }
+
 input{
-    opacity: 0;
-    border-bottom: rgb(233, 11, 11);
+    opacity: 1;
+    border: none;
+    border-bottom: 1px solid gray ;
 
 }
 .section4{
-    background-color: rgb(46, 30, 187);
     height: 1073px;
+    
 }  
 
 .repair{
@@ -414,23 +409,40 @@ input{
   
   
  }
+ .logo-wrapper{
+     display: flex;
+     flex-flow: column;
+     text-align: center;
+}
 
  .repair-img{
     height: 421px;
     width: 392px; 
     padding: 30px;
-
  }
 
 .wrapper4-1{
     display: flex;
     justify-content: center;
+    
 }
 .list-wrap{
   height: 286px;
   width: 330px;
   background-color: white;
   margin-top: -8vw;
-  
  
+}
+.price_button{
+    margin-top: 23px;
+    width: 228px;
+    height: 54px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+.wrapper4-1 h3{
+    padding-left: 25px;
 }
