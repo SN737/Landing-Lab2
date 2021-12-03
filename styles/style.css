@@ -54,6 +54,9 @@ header, footer {
 
 .button:hover {
     cursor: pointer;
+    box-shadow: 0px 6px 18px rgba(134, 114, 82, 0.4); 
+    
+    
 }
 
 .tel{
@@ -73,6 +76,18 @@ header, footer {
     border: white;
     border-style: solid;
     border-width: 1px;
+ }
+
+ .button3{
+    width: 200px;
+    height: 51px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2); 
+ }
+ .button3:hover{
+    box-shadow: 0px 6px 18px rgba(134, 114, 82, 0.4); 
+    
+    transition: 0.32s;
+
  }
 
 .headnav1 {
@@ -195,28 +210,28 @@ header, footer {
 }
 
 .item-2 {
-    background-color: rgb(49, 163, 68);
+    
     grid-column: span 2;
     font-family: NunitoSans;
     font-size: 14px;
 }
 
 .item-3 {
-    background-color: rgb(34, 32, 180);
+    
     
 
 }
 
 .item-4 {
-    background-color: rgb(207, 219, 29);
+   
 }
 
 .item-5 {
-    background-color: rgb(175, 52, 165);
+   
     }
 
 .item-6 {
-        background-color: rgb(66, 204, 11); 
+        
 }
 .item-7 {
     background-color: rgb(63, 10, 59);
@@ -225,10 +240,9 @@ header, footer {
     }
 
 .item-9 {
-    background-color: rgb(207, 219, 29);
+    
 }
 .item-10 {
-    background-color: rgb(30, 155, 41);
     grid-column: span 3;
     max-width: 35vw;
     padding-top: 2vw;
@@ -248,16 +262,20 @@ header, footer {
 
 .nav2_item{ 
     margin-right: 30px;
-    font-family: Yeseva One;
+    font-family: YesevaOne;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
     
+    
     /*align-items: center;*/
 }
-.nav2_item:active{
+.nav2_item a{
+    text-decoration: none;
+}
+.nav2_item a:hover{
     color: #E3B873;
     text-decoration: underline;
 }
@@ -286,7 +304,7 @@ header, footer {
     
     height: 1000px;
     margin-top: -18vw;
-    ;
+    
      
 }
 
@@ -369,10 +387,7 @@ header, footer {
 .good-chbox:not(:disabled):active+label::before {
     background-color: #f3e3ca;
   }
-  /* стили для чекбокса, находящегося в фокусе
-.good-chboxx:focus+label::before {
-    box-shadow: 0 0 0 0.2rem #724702;
-  } */
+  
   /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
 .good-chbox:focus:not(:checked)+label::before {
     border-color: #f3e3ca;
@@ -393,8 +408,7 @@ header, footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 1vw;
-
-  }
+}
 
 input{
     opacity: 1;
@@ -416,6 +430,7 @@ input{
   flex-flow: column;
   
   
+  
  }
  .logo-wrapper{
      display: flex;
@@ -427,6 +442,7 @@ input{
     height: 421px;
     width: 392px; 
     padding: 30px;
+    /*box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);  мне так больше нравится, но этого нет в макете*/
  }
 
 .wrapper4-1{
@@ -445,11 +461,18 @@ input{
     margin-top: 23px;
     width: 228px;
     height: 54px;
-    font-family: Yeseva One;
+    font-family: YesevaOne;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
+}
+
+.price_button:hover{
+    width: 230px;
+    height: 56px;
+    transition: 0.22s;
+    
 }
 .wrapper4-1 h3{
     padding-left: 25px;
@@ -494,6 +517,12 @@ input{
     
     flex: 0 0 auto;
 }
+
+.circle:hover{
+    border: 8px solid antiquewhite;
+    transition: 0.22s;
+}
+
 .feat-text{
     
     color: #363636;
@@ -553,6 +582,7 @@ input{
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #131313;
+    border-radius: 3px;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
     height: 509px;
     padding-left: 2vw;
@@ -712,9 +742,55 @@ input{
     display: flex;
     
     
+    
 }
+.design-list-wrap{
+    font-family: NunitoSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    
+    color: #FFFFFF;
+    list-style: none;
+    display: flex;
+    
+    
+    
+}
+
 .design-list{
-    width: 470px;
+    list-style: none;
+    text-align: left;
+    line-height: 55px;
+}
+.design-list a:hover{
+    color: #E3B873;
+}
+
+
+.design-title{
+
+    font-family: YesevaOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-left: 30px;
+}
+
+.design{
+    
+    width: 490px;
+    height: 860px;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    justify-content: center;
+    padding-left: 90px;
+
 }
 
 .overlay-items{
@@ -759,12 +835,12 @@ input{
 
 .img-item1{
     position: absolute;
-    top: -100px;
+    top: -70px;
 }
 
 .img-item2{
     position: absolute;
-    bottom: -880px;
+    bottom: -50px;
 
 }
 
@@ -775,7 +851,7 @@ input{
 }
 .img-item4{
     position: absolute;
-    bottom: -820px;
+    bottom: 30px;
     left: 400px;
 }
 
