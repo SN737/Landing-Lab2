@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IC Repair Design Project</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="img/pig.ico" rel="shortcut icon" />
 </head>
 <body>
  <div class="content">
@@ -44,8 +45,13 @@
             <div class="grid-item item-4 white-nunito"><h3 class="orange-text">apartment area:</h3><span>81 m2</span></div>
             <div class="grid-item item-5 white-nunito"><h3 class="orange-text">Repair time:</h3><span>3.5 months</span></div>
             <div class="grid-item item-6 white-nunito"><h3 class="orange-text">Repair Cost:</h3><span>Upon request</span></div>
-            <div class="grid-item item-7"><img class="img-arr-left" src="img/Group.svg"> </div>
-            
+            <div class="grid-item control"><!---<img class="img-arr-left" src="img/right.png">  проба описать блок используя БЭМ--> 
+                <a class="control__left" href="#" role="button"><img src="img/left.svg" alt="left arrow"></a>
+                <a class="control__indicator control__indicator_active" href="#"> </a>
+                <a class="control__indicator" href="#"></a>
+                <a class="control__indicator" href="#"></a>
+                <a class="control__right" href="#" role="button"><img src="img/right.png" alt="right arroe"></a>
+            </div>
             
             
             
@@ -88,6 +94,7 @@
             </div>
         
         </div>
+
     </section>
     <section class="section4">
         <div class="wrapper4">
@@ -199,7 +206,7 @@
                             <div class="client-data-email client-form">
                                 <span class = "text-form-grey">Email</span>
                                 <br>
-                                <label for="phone"><input type="text" email="email" id="email" placeholder = "Your email:" value="Your email:"></label>
+                                <label for="email"><input type="text" email="email" id="email" placeholder = "Your email:" value="Your email:"></label>
                             </div>
                             <div class="client-data-button">  
                                 <input id="agreement2" type="checkbox" class= "good-chbox2"> 
@@ -267,7 +274,7 @@
             <div class="clients">
                 <div class="feed-wrap">
                     <div class="feed">
-                        <img src="img/name1.png" alt="client1">
+                        <img class="foto" src="img/name1.png" alt="client1">
                         <div class="feed-name">Fedosova Maria Konstantinovna</div>
                     </div>
                     <div class="feed-text">I want to thank the guys for their work. We put your shower part in repair.
@@ -275,12 +282,26 @@
                         to Georgia for its professionalism and approach.
                         The repair process was turned out in terms, faster than anticipated. Team mobile and professional.
                         Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters. </div>
+                        <div class="client__footer">
+                            <div class="client__item">
+                              <div class="client__stcut">
+                                <img src="img/m2.png" alt="sqmeters icon">
+                              </div>
+                              <span class="client__spec">40 m<sup>2</sup></span>
+                            </div>
+                            <div class="client__item">
+                              <div class="client__stcut">
+                                <img src="img/disp.svg" alt="days icon">
+                              </div>
+                              <span class="client__spec">48 days</span>
+                            </div>
+                        </div>
 
                 </div>
 
                 <div class="feed-wrap">
                     <div class="feed">
-                        <img src="img/name2.png" alt="client2">
+                        <img class="foto" src="img/name2.png" alt="client2">
                         <div class="feed-name">Afanasyev Sergey Alexandrovich</div>
                     </div>
                     <div class="feed-text">I want to thank the guys for their work. We put your shower part in repair. 
@@ -288,10 +309,24 @@
                         to Georgia for its professionalism and approach.
                         The repair process was turned out in terms, faster than anticipated. Team mobile and professional. 
                         Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</div>
+                        <div class="client__footer">
+                            <div class="client__item">
+                              <div class="client__icon">
+                                <img src="img/m2.png" alt="sqmeters icon">
+                              </div>
+                              <span class="client__spec">90 m2</span>
+                            </div>
+                            <div class="client__item">
+                              <div class="client__icon">
+                                <img src="img/disp.svg" alt="days icon">
+                              </div>
+                              <span class="client__spec">128 days</span>
+                            </div>
+                        </div>
                 </div>
                 <div class="feed-wrap">
                     <div class="feed">
-                        <img src="img/name3.png" alt="client3">
+                        <img class="foto" src="img/name3.png" alt="client3">
                         <div class="feed-name">Kiriev Egor<br> Leonidovich</div>
                     </div>
                     <div class="feed-text">I want to thank the guys for their work. We put your shower part in repair.
@@ -299,11 +334,70 @@
                         to Georgia for its professionalism and approach.
                         The repair process was turned out in terms, faster than anticipated.
                         Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</div>
-                </div>
+                        <div class="client__footer">
+                            <div class="client__item">
+                              <div class="client__icon">
+                                <img src="img/m2.png" alt="sqmeters icon">
+                              </div>
+                              <span class="client__spec">56 m2</span>
+                            </div>
+                            <div class="client__item">
+                              <div class="client__icon">
+                                <img src="img/disp.svg" alt="days icon">
+                              </div>
+                              <span class="client__spec">86 days</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+
             </div>
+        
+            
         </div>
+    </div>
+</div>
+  
 
+    </section>
+ <!------Section8 -MAP -->
 
+    <section class="section8">
+        <form class="form3">
+            <div class="question__form">
+                <span class = 'text-agree'><center>Have Any Question?</center></span>
+                <div class="question-grid__container">
+                    <div class="client-data client-form">
+                        <span class = "text-form-grey">Name</span>
+                        <br>
+                        <label class= "name" for="name"><input type="text" name="name" id="name" placeholder="What is your name:" value="What is your name:"></label> 
+                    </div>
+                    <div class="client-data-phone client-form">
+                        <span class = "text-form-grey">Phone</span>
+                        <br>
+                        <label for="phone"><input type="text" phone="phone" id="phone" placeholder = "Your phone number:" value="Your phone number:"></label>
+                    </div>
+                    
+                    <div class="client-data-question client-form2">
+                        <span class = "text-form-grey">Question</span>
+                        <br>
+                        <label for="Question"><input type="text" Question="Question" id="Question" placeholder = "Question" value="I want to know:"></label>
+                    </div>
+                    
+                </div>
+                <div class="client-data-button">  
+                    <input id="agreement3" type="checkbox" class= "good-chbox2"> 
+                    <label for="agreement3" class="label2"><span class = "text-agree">I agree to the processing of personal data</span> </label>
+                
+                </div>
+                    
+                <div class="submit-button-que">
+                    <div class="dummy"></div>
+                    <input type="submit" value = "SUBMIT" class='button button2 button3'>
+                </div>
+            </div> 
+        </form>
+       
     </section>
 
 
