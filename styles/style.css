@@ -117,6 +117,9 @@ header, footer {
     /*height: 707px;*/
     background-image: url("../img/img1.jpg");
     flex: 1 1 auto;
+    background-position: center;
+    background-size: cover;
+    
  }
 
 .darklayer {
@@ -131,12 +134,13 @@ header, footer {
     max-width: 27vw;
     padding-top: 7vw;
     padding-left: 5vw;
+    padding-bottom: 5rem;
     display: grid;
     grid-template-areas:
     "A A A A A A"
     "B B B B B B"
     "C C C D D D";
-    gap: 1px;
+    gap: 3px;
 }
 
 .button2-1{
@@ -179,7 +183,7 @@ header, footer {
 }
 
 .section2 {
-    height: 1074px;
+    /*height: 1074px;*/
     background-color: black;
     display: flex;
  
@@ -304,12 +308,12 @@ header, footer {
 
 .wrapper3{
     display: flex;
-    padding-top: 1vw;
+    padding-top: 0vw;
     justify-content: center;
     align-items: center; 
     flex-flow: column;
     align-content: center;
-    margin-top: -15vw;
+    margin-top: -18vw;
    
 
 }
@@ -340,7 +344,8 @@ header, footer {
    
 }
 .darklayer2{
-   width: 100%;
+   width: 817px;
+   height: 434px;
    
     
     background-color:rgba(0, 0, 0, 0.8);
@@ -493,10 +498,10 @@ input{
 .section5{
     /* align-self: auto;*/
     padding-bottom: 195px;
-    
-    
-   
-   
+}
+
+.gallery-mobile, .completed-project-container{
+    display: none;
 }
 
 .wrapper5{
@@ -970,7 +975,7 @@ input{
 }
 .client-form2 input{
     border: none;
-    max-width:600px ;
+    width:600px ;
     background-color:black;
     border-bottom: 1px solid gray;
     opacity: 1;
@@ -992,7 +997,8 @@ input{
     font-family: YesevaOne;
     font-size: 17px;
     line-height: 24px;
-    text-transform: uppercase;width: 294px;
+    text-transform: uppercase;
+    width: 294px;
     height: 54px;
 }
 .client__footer {
@@ -1026,12 +1032,12 @@ input{
     flex-direction: column;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.835);
-    
-    
-    
+   
 }
 
-   
+   .mobile{
+       display: none;
+   }
     
     
 
