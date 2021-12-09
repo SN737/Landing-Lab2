@@ -1,0 +1,315 @@
+/* mobile version for header */
+@media screen and (max-width: 375px) {
+    .nav,
+    .button1 {
+      display: none;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+    }
+    .logo {
+      margin-right: 40px;
+    }
+    .container {
+        max-width: 339px;
+  }
+  .footer{
+      display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .wrapper4-1{
+        flex-direction: column;
+    }
+    .wrapper5 div {
+        display: none;
+    }
+    .design-list, .photo-overlay, .section5 {
+        display: none;
+    }
+    .wrapper7 div {
+        display: none;
+    }
+
+    .darklayer4 {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .section6 {
+        width: 340px;
+        height: 242px;
+        margin-bottom: 300px;
+        margin-left: 17px;
+      }
+      .question__form {
+        width: 375px;
+        height: 745px;
+        margin-top: -450px;
+      }
+      .text-agree {
+        margin-top: 200px;
+      }
+      .question-grid__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .client-data,  .client-form,
+      .client-data-question,
+      .client-data-button {
+        width: 340px;
+      }
+      .client-datae,
+      .client-data-phone {
+        margin: 0;
+        margin-bottom: 50px;
+      }
+      .client-data-question {
+        margin-bottom: -23px;
+      }
+      .map-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 250px;
+        padding-top: 50px;
+      }
+      .map-frame {
+        width: 320px;
+        height: 250px;
+      }
+      .map-header {
+        margin-top: -250px;
+      }
+
+}
+
+
+/*!-----------------------------------------------------------*/
+.completed-projects, .completed-project-container {
+    display: none;
+  }
+@media screen and (max-width: 770px), (max-width: 375px)  {
+
+    * {
+        font-size: 14px;
+    }
+    body{
+        color: white;
+        font-family: 'NunitoSans', Helvetica, Arial, sans-serif;
+        font-weight: 400;
+    }
+    .form1, .form-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .gridwrapper1{
+        justify-items: center;
+        
+        max-width: unset;
+        grid-template-areas:
+    "A A"
+    "B B"
+    "C C"
+    "D D";
+    gap: 1rem;
+
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    padding-right: 2.6rem;
+    padding-left: 2.6rem;
+      
+    }
+    .gridwrapper1 p{
+        font-size: 14px;
+    line-height: 135.84%;
+    }
+    .gridwrapper1 h1, .gridwrapper1 .rnd{
+        font-size: 23px;
+        line-height: 132.83%;
+    }
+    .button2{
+        width: 100%;
+        
+    }
+    .section2 {
+        display: none;
+    }
+    .wrapper2 {
+        display: none;
+    }
+    
+
+    .repair-title{
+        color: black;
+        font-family: YesevaOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.6%;
+    }
+    .complited-project__mobile-version {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .complited-project__heading {
+        font-family: 'YesevaOne', Helvetica, Arial cursive;
+        font-size: 1.68rem;
+        font-weight: 400;
+        color: #E3B873;
+        line-height: 37.42px;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+        text-align: center;
+        width: 50%;
+    }
+
+    .wrapper4-1{
+        flex-direction: column;
+    }
+
+    .design-list-wrap, .photo-overlay, .section5{
+        display: none;
+    }
+
+    .complited-project__about {
+        font-size: 0.875rem;
+        line-height: 26.73px;
+        font-weight: 400;
+        width: 90%;
+        margin-bottom: 36px;
+        text-align: center;
+    }
+    .wrapper7 div {
+        display: none;
+    }
+
+    .mobile-img {
+        width: 90%; 
+        position: relative;   
+    }
+    .mobile-img-wrapper {
+        width: 100%;
+        position: relative; 
+    }
+    .mobile-img-picture {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .mobile-img-wrapper::before {
+        content: '\003C';
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #E3B873;
+        position: absolute;
+        top: 50%;        
+        left: 0;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        z-index: 1;
+    }
+    .mobile-img-wrapper::after {
+        content: '\003E';
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #E3B873;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        right: 0;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+    .project-info {
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        list-style: none;
+        margin-top: 15px;
+    }
+    .description {
+        text-transform: uppercase;
+        font-size: 1.125rem;
+        line-height: 24.95px;
+        margin-bottom: 9px;
+    }
+    .details {
+        font-size: 0.8125rem;
+        line-height: 21,28px;
+    }
+        .project-info__item {
+        margin-bottom: 34px;
+    }
+    .description {
+        font-family: 'YesevaOne', Helvetica, Arial cursive;
+        font-weight: 400;
+        font-size: 1.125rem;
+        color: #E3B873;
+        line-height: 24.95px;
+    }
+    .completed-project-container{
+        display: flex;
+        justify-content:space-between;
+        background: black;
+        padding-bottom: 60px;
+    }
+    .headnav1,
+    .button1 {
+      display: none;
+    }
+    .nav, .header {
+      display: flex;
+      
+      justify-content:space-around;
+    }
+    .logo {
+      margin-right: 40px;
+    }
+    .container {
+        max-width: 339px;
+  }
+  .footer{
+      display: none;
+  }
+  .wrapper3{
+      background-color: black;
+  }
+  
+  .camview {
+    width: 90%;
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(49, 39, 39);
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  .text-sec3{
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    font-size: 11px;
+    line-height: 169.8%;
+    font-weight: 400;
+    color: white;   
+  }
+
+}
