@@ -67,7 +67,7 @@
       }
       .client-data,  .client-form,
       .client-data-question  {
-        width: 340px;
+        width: 100vw;  /*340px*/
       }
       .client-datae,
       .client-data-phone {
@@ -115,6 +115,9 @@
         justify-content: center;
         align-items: center;
         padding-bottom: 0rem;
+        width: 80vw;
+        text-align: unset;
+        
         
         
     }
@@ -221,9 +224,9 @@
     }
     .mobile-img-picture {
         display: block;
-        width: 90%;
+        width: 90vw;
         position: relative;
-        margin-left: 20px;
+        1margin-left: 20px;
     }
     .mobile-img-wrapper::before {
         content: '<';
@@ -456,10 +459,12 @@
         padding-top: 1rem;
         padding-bottom: 0rem;
         transform: translate(0, 30%);
+        text-align: center;
+        
     }
 
     .form1 input{
-        width: 50%;  
+         
     background-color:black;
     border-bottom: 1px solid gray;
     color:#FFFFFF;  
@@ -480,12 +485,25 @@
     .data-agreement{
         transform: translateX(-5%);
         padding: 0rem;
+        text-align: center;
     }
     .form1 p {
         align-self: flex-start;
         justify-self: left;
         text-align: left;
-        padding-left: 12rem;
+        padding-left: 0rem;
+    }
+    .repair-img{
+        padding: 0.1vw;
+        padding-top: 12vw;
+    }
+    .logo-wrapper{
+        padding-top: 4vw;
+    }
+    .submit-button-que{
+        display: flex;
+        justify-content: center;
+        width: 90vw;
     }
 }
 
@@ -499,18 +517,24 @@
     .gallery-mobile__heading{
         padding-top: 3rem;
     }
+    .button-mobile{
+        width: 80vw;
+        
+    }
       
 }
 
 
 @media screen and (max-width: 375px) {
     .button-mobile{
-       width: 340px;
-       margin-bottom: 0;
+       
+       
+      
 
     }
     .map-frame {
         width: 320px;
         height: 250px;
       }
+    
 }
