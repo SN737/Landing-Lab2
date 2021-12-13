@@ -538,3 +538,12 @@
       }
     
 }
+
+@media screen and (max-width: 1300px) {
+    .photo-overlay{
+        overflow: hidden;
+    }
+    .client__footer{
+        transform: translateY(2vw);
+    }
+}
