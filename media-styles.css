@@ -188,6 +188,7 @@
 
     .wrapper4-1{
         flex-direction: column;
+        
     }
 
     .design-list-wrap,
@@ -347,7 +348,7 @@
   }
 
   .repair-wrap{
-      1padding-bottom: 20rem;
+      
   }
   .gallery-mobile__heading {
     font-family: 'YesevaOne';
@@ -496,6 +497,7 @@
     .repair-img{
         padding: 0.1vw;
         padding-top: 12vw;
+        max-width: 100vw;
     }
     .logo-wrapper{
         padding-top: 4vw;
