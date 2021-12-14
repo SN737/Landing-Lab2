@@ -39,13 +39,13 @@
         </section>
         <section class = "section2">
             <div class = "wrapper2">
-                <div class="grid-item item-1 orange-text"><h2>Completed projects</h2></div>
-                <div class="grid-item item-2"><p>Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
+                <div class="grid-item wrapper2--grid-item__item-1 orange-text"><h2>Completed projects</h2></div>
+                <div class="grid-item wrapper2--grid-item__item-2"><p>Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
                     market we have made happy more than 1000 families</p></div>
-                <div class="grid-item item-3 white-nunito"><h3 class="orange-text">City:</h3><span>Rostov-on-Don LCD admiral</span></div>
-                <div class="grid-item item-4 white-nunito"><h3 class="orange-text">apartment area:</h3><span>81 m2</span></div>
-                <div class="grid-item item-5 white-nunito"><h3 class="orange-text">Repair time:</h3><span>3.5 months</span></div>
-                <div class="grid-item item-6 white-nunito"><h3 class="orange-text">Repair Cost:</h3><span>Upon request</span></div>
+                <div class="grid-item wrapper2--grid-item__item-3 white-nunito"><h3 class="orange-text">City:</h3><span>Rostov-on-Don LCD admiral</span></div>
+                <div class="grid-item wrapper2--grid-item__item-4 white-nunito"><h3 class="orange-text">apartment area:</h3><span>81 m2</span></div>
+                <div class="grid-item wrapper2--grid-item__item-5 white-nunito"><h3 class="orange-text">Repair time:</h3><span>3.5 months</span></div>
+                <div class="grid-item wrapper2--grid-item__item-6 white-nunito"><h3 class="orange-text">Repair Cost:</h3><span>Upon request</span></div>
                 <div class="grid-item control"><!---<img class="img-arr-left" src="img/right.png">  проба описать блок используя БЭМ--> 
                     <a class="control__left" href="#" role="button"><img src="img/left.svg" alt="left arrow"></a>
                     <a class="control__indicator control__indicator_active" href="#"> </a>
@@ -57,20 +57,19 @@
                 
             </div>
             <div class = "wrapper2-2">
-                <div class="item-10">
+                <div class="wrapper2-2--grid-item__item-10">
                     <ul class = "nav2">
                         <li class = "nav2_item"><a href="index.html">Rostov-on-Don, Admiral</a></li>
                         <li class = "nav2_item"><a href="index.html">Sochi Thieves</a></li>
                         <li class = "nav2_item"><a href="index.html">Rostov-on-Don Patriotic</a></li>
 
                 </ul></div>
-                <div class="grid-item item-11"><img class="img2" src="img/img2.png"></div>
+                <div class="grid-item wrapper2-2--grid-item__item-11"><img class="img2" src="img/img2.png"></div>
             </div> 
                         
         </section>
         <!---------------------------------mobile-------------------------------------------------------------------->
         <section class= "mobile">
-            <div class="completed-project-container">
             <div class="complited-project__mobile-version">
                 <h2 class="complited-project__heading">
                     Completed <br>projects
@@ -121,7 +120,6 @@
                     </ul>
                 </div>    
             </div>
-            </div>
         </section>  
         <!----------------------------------------------------------------------------------------------------->
         <section class="section3">
@@ -130,40 +128,37 @@
                 <div class="camera">
                     <img class="img3" src="img/cam2.png">
                 </div>
-            <div class="camview">
-                <div class="darklayer2"><img class="play" src="img/play.png" alt="play btn"></div>
-            </div>
-            <div class="hr-line"></div>
-            <div class="text-sec3"><p class="white-nunito text-sec3">At each facility, a camera is installed that broadcasts the progress of work on the clock.
-                    At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
-                Leave a request below and you will receive a link to the broadcast.</p>
-            </div>
-            <div class="form-wrapper">
-                    <form class="form1">
-                        <div class="client-data">
-                            <p class = "text-form-grey mobile">Name</p>
-                            <label for="name"><input class="white-text" type="text" name="name" id="name" placeholder="What is your name:" value="What is your name:"></label>
-                         </div>
-                        <div class="client-data-phone">
-                            <p class = "text-form-grey mobile">Phone</p>
-                        <label for="phone"><input type="text" phone="phone" id="phone" placeholder = "Your phone number:" value = "Your phone number:"></label>
-                         </div>
-                        <div class="client-data-button">
-                        <button class='button button3'>SUBMIT</button></div>
-                    </form>
-                    <div class="data-agreement">
-                        <input id="agreement" type="checkbox" class= "good-chbox">
-                        <label for="agreement">I agree to the processing of personal data </label>
-                    </div>
-                        <br>
+                <div class="camview">
+                    <div class="darklayer2"><img class="play" src="img/play.png" alt="play btn"></div>
+                </div>
+                <div class="hr-line"></div>
+                <div class="text-sec3"><p class="white-nunito text-sec3">At each facility, a camera is installed that broadcasts the progress of work on the clock.
+                        At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
+                    Leave a request below and you will receive a link to the broadcast.</p>
+                </div>
+                <div class="form-wrapper">
+                        <form class="form1">
+                            <div class="client-data">
+                                <p class = "text-form-grey mobile">Name</p>
+                                <label for="name"><input class="white-text" type="text" name="name" id="name" placeholder="What is your name:" value="What is your name:"></label>
+                            </div>
+                            <div class="client-data-phone">
+                                <p class = "text-form-grey mobile">Phone</p>
+                                <label for="phone"><input type="text" phone="phone" id="phone" placeholder = "Your phone number:" value = "Your phone number:"></label>
+                            </div>
+                            <div class="client-data-button">
+                                <button class='button button3'>SUBMIT</button>
+                            </div>
+                        </form>
+                        <div class="data-agreement">
+                            <input id="agreement" type="checkbox" class= "good-chbox">
+                            <label for="agreement">I agree to the processing of personal data </label>
+                        </div>
+                            <br>
                         <div class="client-data-button__mobile mobile">
                             <button class='button button3 button-mobile'>SUBMIT</button>
                         </div>
-
-                        
-                
                 </div>
-            
             </div>
 
         </section>
@@ -172,7 +167,7 @@
                 <div class="logo-wrapper">
                     <h3 class="repair-title">TYPES OF REPAIR</h3>
                     <div class="hammer">
-                    <img class="img3" src="img/hammer.png"> 
+                        <img class="img3" src="img/hammer.png"> 
                     </div>
                 </div>
                 <div class="wrapper4-1 repair-wrap">
@@ -189,52 +184,47 @@
                                 <li>Replacing sockets and switches</li>
                                 <li>Replacin   g doors</li>
                             </ul>
-                            <button        class= "button price_button">from 900 rub / m<sup>2</sup></button>
+                            <button class= "button price_button">from 900 rub / m<sup>2</sup></button>
                         
         
-                            </div>
                         </div>
-                        <div class="repair2 repair">
-                            <img class="repair-img" src="img/repair2.jpg" alt="example of repair">
-                            <div class="list-wrap">
-                                <h3>Overhaul</h3>
-                                <ul>
-                                    <li>Dismantling of old coatings</li>
-                                    <li>Wallpapering</li>
-                                    <li>Painting walls and ceilings</li>
-                                    <li>Laying flooring</li>
-                                    <li>Replacing plumbing</li>
-                                    <li>Replacing sockets and switches</li>
-                                    <li>Replacing doors</li>
-                                </ul>
-                                <button class= "button price_button">from 1800 rub / m<sup>2</sup></button>
+                    </div>
+                    <div class="repair2 repair">
+                        <img class="repair-img" src="img/repair2.jpg" alt="example of repair">
+                        <div class="list-wrap">
+                            <h3>Overhaul</h3>
+                            <ul>
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                            <button class= "button price_button">from 1800 rub / m<sup>2</sup></button>
 
-                            </div>
                         </div>
-                        <div class="repair3 repair">
-                            <img class="repair-img" src="img/repair3.jpg" alt="example of repair">
-                            <div class="list-wrap">
-                                <h3>Designer Repair</h3>
-                                <ul>
-                                    <li>Dismantling of old coatings</li>
-                                    <li>Wallpapering</li>
-                                    <li>Painting walls and ceilings</li>
-                                    <li>Laying flooring</li>
-                                    <li>Replacing plumbing</li>
-                                    <li>Replacing sockets and switches</li>
-                                    <li>Replacing doors</li>
-                                </ul>
-                                <button class= "button price_button">from 4000 rub / m<sup>2</sup></button>
+                    </div>
+                    <div class="repair3 repair">
+                        <img class="repair-img" src="img/repair3.jpg" alt="example of repair">
+                        <div class="list-wrap">
+                            <h3>Designer Repair</h3>
+                            <ul>
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                            <button class= "button price_button">from 4000 rub / m<sup>2</sup></button>
                                 
-                            </div>
                         </div>
                     </div>
-                    <div class="wrapper4-2 repair">
-
-                    </div>
-                
+                </div>
             </div>
-
         </section>
         <section class = "section5">
             <div class="wrapper5">
@@ -334,7 +324,7 @@
         </section>
         <!-------------------------------mobile-------------------------------->
         <section class="gallery-mobile">
-            <div class="">
+            <div class="gallery-mobile-wrapper">
                 <h2 class="gallery-mobile__heading">
                     We realize your <br>wildest fantasies
                 </h2>
@@ -428,22 +418,16 @@
                                 <span class="client__spec">86 days</span>
                                 </div>
                             </div>
-                            
                         </div>
-
-                </div>
+                    </div>
                 <div class="back-img">
                     <div class="back-item"><img src="img/city2.png" alt=""></div>
                     <div class="back-item"><img src="img/city2.png" alt=""></div>
                 </div>
-                
             </div>
-            
-        
-    
-
         </section>
-            <!------Section8 -MAP -->
+
+        <!----------------------Section8 -MAP ----------------------->
 
         <section class="section8">
             <div class="wrapper8">
@@ -474,7 +458,6 @@
                             <label for="agreement3" class="label2"><span class = "text-agree">I agree to the processing of personal data</span> </label>
                         
                         </div>
-                            
                         <div class="submit-button-que">
                             <div class="dummy"></div>
                             <input type="submit" value = "SUBMIT" class='button button2 button3'>
@@ -498,7 +481,6 @@
                     </div>  
                 </div>
             </div>
-                       
         </section>
         <section class="map-mobile mobile">
             <div class="map-mobile-wrapper">
@@ -506,17 +488,17 @@
                     <p class="map-mobile__heading">Have Any Questions?</p>
                 </div>
                 <div class="map-mobile__feedback">
-                    <form class="map__content__feedback__request">
+                    <form class="map-mobile-feedback-request">
                         <p class="text-form-grey">Name</p>
-                        <input class="feedback-form__request__input" type="text"  placeholder="What is your name:" value="What is your name:">
+                        <input class="feedback-form__input" type="text"  placeholder="What is your name:" value="What is your name:">
                     </form>
-                    <form class="map__content__feedback__request">
+                    <form class="map-mobile-feedback-request">
                         <p class=" text-form-grey">Phone</p>
-                        <input class="feedback-form__request__input" type="text"  placeholder = "Your phone number:" value="Your phone number:">
+                        <input class="feedback-form__input" type="text"  placeholder = "Your phone number:" value="Your phone number:">
                     </form>
-                    <form class="map__content__feedback__request">
+                    <form class="map-mobile-feedback-request">
                         <p class="text-form-grey">Question</p>
-                        <input class="feedback-form__request__input" type="text"  placeholder = "Question" value="I want to know:">
+                        <input class="feedback-form__input" type="text"  placeholder = "Question" value="I want to know:">
                     </form>
                     <div class="client-data-agreement">  
                         <input id="agreement4" type="checkbox" class= "good-chbox2"> 
@@ -543,8 +525,6 @@
                 </div>
             </div>    
         </section>
-
-
         <footer class="footer">
             <span class="logo">IC "Repair Design Project"</span>
             <nav class= "nav">
