@@ -25,7 +25,7 @@
 }
 
 
-
+/* mobile version for body */
 @media screen and (max-width: 770px), (max-width: 375px){
     .wrapper4-1{
         flex-direction: column;
@@ -550,7 +550,7 @@
     .photo-overlay{
         overflow: hidden;
     }
-    .client__footer{
+    .client__bottom{
         transform: translateY(2vw);
     }
 }
