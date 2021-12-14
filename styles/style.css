@@ -185,11 +185,13 @@ header, footer {
     display: grid;
     grid-template-columns: 200px 200px;
     grid-template-rows: repeat(6, 100px);
+    row-gap: 1.2vw;
 }
 
 .orange-text {
     color:#E3B873;
     font-family: YesevaOne;
+    text-transform: uppercase;
 }
 
 .white-nunito{
@@ -201,18 +203,27 @@ header, footer {
     grid-column: span 2;
     font-family: YesevaOne;
     font-size: 27px;
+    letter-spacing: -0.07em;
 }
+
+.grid-item h2, .grid-item h3 {
+    font-weight: initial;
+}
+
 
 .wrapper2--grid-item__item-2 {
     grid-column: span 2;
     font-family: NunitoSans;
     font-size: 14px;
+    padding-top: 1vw;
+    line-height: 27px;
+    
 }
 
 .control {
     grid-column: span 2;
     justify-content: space-between;
-    padding: 10px 80px 20px 0;
+    padding: 0.5vw 80px 20px 0;
 }
 
 .control__indicator{
